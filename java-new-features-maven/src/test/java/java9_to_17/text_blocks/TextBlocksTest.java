@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 public class TextBlocksTest {
 
     @Test
-    public void oldMultilineTexts() {
+    void oldMultilineTexts() {
 
         String json = "{\"name\": \"painter\", \"qty\": 18, "
                 + "\"size\": {\"width\": 1, \"height\": 8, \"unit\": \"in\"},"
@@ -15,7 +15,7 @@ public class TextBlocksTest {
     }
 
     @Test
-    public void textBlocks() {
+    void textBlocks() {
 
         String json = """
                 {

@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 public class EnhanceSwitchStatementTest {
 
     @Test
-    public void SwitchExample() {
+    void SwitchExample() {
         String player = "Messi";
 
         runSwitch(player);

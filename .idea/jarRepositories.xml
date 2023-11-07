@@ -2,6 +2,16 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="groups-public" />
+      <option name="name" value="groups-public" />
+      <option name="url" value="https://repo.sadad.co.ir/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="baam-backbase-maven" />
+      <option name="name" value="baam-backbase-maven" />
+      <option name="url" value="https://repo.sadad.co.ir/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="projectlombok.org" />
       <option name="name" value="projectlombok.org" />
       <option name="url" value="https://projectlombok.org/edge-releases" />
@@ -10,6 +20,11 @@
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.sadad.co.ir/repository/maven-public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />

@@ -1,5 +1,6 @@
 package java9_to_17.local_variable_type_inference;
 
+import java9_to_17.records.PersonRecord;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -11,6 +12,10 @@ public class VarExampleTest {
 
 
     int i = 10;
+
+    int x;
+
+
 
     @Test
     public void varExample() {
@@ -43,9 +48,30 @@ public class VarExampleTest {
 
     @Test
     public void testPerson() {
+
         var person = new Person("John", 30);
 
         assertEquals("John", person.getName());
         assertEquals(30, person.getAge());
     }
+
+    @Test
+    public  void genericTypes()
+    {
+        // Generic list using var
+//        var<Integer> al = new ArrayList<Integer>();
+//
+//        // add elements
+//        al.add(10);
+//        al.add(20);
+//        al.add(30);
+//
+//        // print the list
+//        System.out.println(al);
+
+
+
+        var list = new ArrayList<String>();
+    }
+
 }

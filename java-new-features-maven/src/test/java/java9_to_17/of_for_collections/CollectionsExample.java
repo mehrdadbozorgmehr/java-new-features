@@ -25,7 +25,7 @@ public class CollectionsExample {
 
         //New
 
-        List<String> names = List.of("Mehdi", "Mohammad");
+        List<String> names = new ArrayList<>(List.of("Mehdi", "Mohammad"));
         Set<String> newSet = Set.of("Mehdi", "Mohammad");
         Map<String, String> countries = Map.of("IRAN", "Tehran", "IRAN", "Ahvaz");
         Map<String, String> countries2 = Map.ofEntries(Map.entry("IRAN", "Tehran"), Map.entry("IRAN", "Tehran"));
